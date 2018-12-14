@@ -1,0 +1,41 @@
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 650px;
+	margin: 0 auto;
+}
+section {
+	padding: 15px 25px;
+}
+h2 { 
+	font-size: 125%;
+	margin-bottom: .5em;
+}
+h3 {
+	font-size: 100%;
+	margin-bottom: .5em;
+}
+#todo {
+	list-style-type: none;
+	width: 225px;
+	height: 250px;
+	border: 1px solid blue;
+}
+li  {
+	margin-bottom: 5px;
+	padding: 5px;
+}
+.ui-selected {
+	color: blue;
+
+}
+#add, #delete {
+	margin-top: 10px;
+}
